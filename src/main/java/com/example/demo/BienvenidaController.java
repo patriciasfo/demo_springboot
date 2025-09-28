@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hello")
-public class HelloController {
+@RequestMapping("/")
+public class BienvenidaController {
 
     @GetMapping
-    public String sayHello() {
-        return "Hola! Welcom to spring Boot";
+    public String bienvenida() {
+        return "Bienvenid@ al IES Monte Naranco!!";
     }
 }
